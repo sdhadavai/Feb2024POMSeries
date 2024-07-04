@@ -1,15 +1,11 @@
 package com.qa.opencart.tests;
 
 import org.testng.Assert;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.qa.opencart.base.BaseTest;
 import com.qa.opencart.constants.AppConstants;
 import com.qa.opencart.errors.AppError;
-import com.qa.opencart.listeners.AnnotationTransformer;
-import com.qa.opencart.listeners.ExtentReportListener;
-import com.qa.opencart.listeners.TestAllureListener;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
@@ -27,7 +23,7 @@ import io.qameta.allure.Story;
 //AnnotationTransformer.class is not working from individual page. Only report will work not retry
 public class LoginPageTest extends BaseTest {
 	
-	@Description("Checking login page title ----")
+	@Description("Checking login page title test----")
 	@Severity(SeverityLevel.MINOR)
 	@Owner("Srinvas Dhadavai")
 	@Issue("Login-123")
