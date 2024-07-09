@@ -6,6 +6,7 @@ public class Feature {
 		
 		System.out.println("f1 feature");
 		System.out.println("f2 feature");
+		System.out.println("f3 feature");
 		
 	}
 
