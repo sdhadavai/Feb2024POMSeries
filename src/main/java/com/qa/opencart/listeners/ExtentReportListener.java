@@ -20,7 +20,7 @@ import com.qa.opencart.factory.DriverFactory;
 public class ExtentReportListener implements ITestListener{
 	
 	private static final String OUTPUT_FOLDER = "./reports/";
-	private static final String FILE_NAME = "Srinvas Poject TestExecutionReport.html";
+	private static final String FILE_NAME = "TestExecutionReport.html";
 
 	private static ExtentReports extent = init();
 	public static ThreadLocal<ExtentTest> test = new ThreadLocal<ExtentTest>();
