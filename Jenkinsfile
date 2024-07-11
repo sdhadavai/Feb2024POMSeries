@@ -30,8 +30,7 @@ pipeline
                 echo("deploy to Dev")
             }
         }
-        
-        
+        	
         stage("Deploy to QA"){
             steps{
                 echo("deploy to qa")
